@@ -12,18 +12,23 @@
 
 .content {
     flex: 1;
-    background-color: lightblue;
+    background-color: rgb(198, 201, 202);
 }
 
 .details {
     flex: 1;
 }
 
-/*
+/* 
+To check:
+-flexbox css
+-gitwith vs code
+
+
     To push changes:
 
     -add a message
     -commit the changes (local copy)
-    -push to remote 
+    -push to remote   
 
 */
