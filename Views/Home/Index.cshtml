@@ -10,18 +10,36 @@
 <!-- emmet -->
 
 <div class="parent-container">
-    <div class="side">Menu</div>
 
     <div class="content">
             <h4>My Tasks</h4>
         
             
-        <div id="tasks" class="section-tasks">
-
+        <div id="tasks" class="section-tasks">  
         </div>
+        <button id="btnComplete" class="btn btn-info">Complete</button>
+    </div>
+    
+
+    <div class="details">
+        <div class="details-section">
+        <input id="txtTitle" type="text" placeholder="Task title">
     </div>
 
-    <div class="details">Create new</div>
+       <div class="details-section">
+        <label for="chkImportant">Important</label>
+       <input id="chkImportant" type="checkbox">
+       </div>
+
+        <div class="details-section">
+        <textarea id="txtNotes" placeholder="Notes" rows="6"></textarea>
+        </div>
+
+        <div class="details-section">
+        <button id="btnSave" class="btn btn-info">Save Task</button>
+    </div>
+
+    </div>
 </div>
 
 @section Scripts {
